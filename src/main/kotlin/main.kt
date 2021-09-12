@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    val port = 8765
+    val port = 6474
     val s = Server(port)
     s.start()
     println("ChatServer started on port: " + s.port)
